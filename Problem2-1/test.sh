@@ -13,3 +13,6 @@ echo $n > tmp.txt
 python3 RandomData.py <tmp.txt >> input.txt
 rm tmp.txt
 ./exe < input.txt > output.txt
+mkdir res
+mv *.txt res/
+mv Points.png res/
